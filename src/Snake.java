@@ -12,7 +12,7 @@
             int range = max - min + 1;
 
         // generate random numbers within 1 to 6
-        for (int i = 0; i < 10; i++)  {
+        for (int i = 0; i < 6; i++)  {
             int rand = (int)(Math.random() * range) + min;
 
             // output is different everytime this code is executed
